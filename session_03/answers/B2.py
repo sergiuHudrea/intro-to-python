@@ -7,7 +7,7 @@
 
 age = int(input("How old are you?\n"))
 
-if age == 0:
+if age <= 0:
   print ("You're not born yet!")
 elif age < 11:
   print("You're too young to go to this school")
@@ -15,5 +15,3 @@ elif age >= 11 and age <= 16:
   print ("You can can come to this school")
 elif age > 16:
   print ("You're too old for school")
-else: 
-  print("You have not entered your age...")

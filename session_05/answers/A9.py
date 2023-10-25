@@ -17,7 +17,7 @@ while lesson != "":
         print(lesson + " - D grade")
     elif mark <= 45 and mark > 25:
         print(lesson + " - E grade")
-    elif mark < 25:
+    elif mark < 25 and mark >= 0:
         print(lesson + " - F grade")
     else:
         print("Go to see your teacher")

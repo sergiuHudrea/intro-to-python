@@ -27,7 +27,7 @@ elif mark1 <= 50 and mark1 > 45:
   print(lesson1 + " - D grade")
 elif mark1 <= 45 and mark1 > 25:
   print(lesson1 + " - E grade")
-elif mark1 < 25:
+elif mark1 < 25 and mark1 >= 0:
   print(lesson1 + " - F grade")
 else:
   print("Go to see your teacher")
@@ -43,7 +43,7 @@ elif mark2 <= 50 and mark2 > 45:
   print(lesson2 + " - D grade")
 elif mark2 <= 45 and mark2 > 25:
   print(lesson2 + " - E grade")
-elif mark2 < 25:
+elif mark2 < 25 and mark2 >= 0:
   print(lesson2 + " - F grade")
 else:
   print("Go to see your teacher")
@@ -59,7 +59,7 @@ elif mark3 <= 50 and mark3 > 45:
   print(lesson3 + " - D grade")
 elif mark3 <= 45 and mark3 > 25:
   print(lesson3 + " - E grade")
-elif mark3 < 25:
+elif mark3 < 25 and mark3 >= 0:
   print(lesson3 + " - F grade")
 else:
   print("Go to see your teacher")
